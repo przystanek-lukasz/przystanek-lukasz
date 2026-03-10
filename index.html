@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serwer FalaMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">FALA<span class="highlight">MC</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#about">O Serwerze</a></li>
+                <li><a href="#rules">Regulamin</a></li>
+                <li><a href="#staff">Ekipa</a></li>
+                <li><a href="#" class="btn-small">Sklep</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="server-status"><span class="dot"></span> Online</span>
+            <h1>Najlepszy Serwer <br> <span class="gradient-text">Survival & Bedwars</span></h1>
+            <p>Dołącz do FalaMC i przeżyj niesamowitą przygodę! Rywalizuj na arenach Bedwars lub buduj swoje imperium na
+                Survivalu.</p>
+
+            <div class="ip-box" onclick="copyIP()">
+                <span id="ip-text">womankind-fruit.gl.joinmc.link</span>
+                <i class="fas fa-copy"></i>
+                <div class="tooltip">Skopiuj IP</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Dlaczego My?</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Niskie Pingi</h3>
+                    <p>Nasze serwery są zoptymalizowane, aby zapewnić płynną rozgrywkę bez lagów.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Anty-Cheat</h3>
+                    <p>Zaawansowane systemy chroniące przed oszustami, gwarantujące uczciwą walkę.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <i class="fas fa-users"></i>
+                    <h3>Aktywna Społeczność</h3>
+                    <p>Tysiące graczy online każdego dnia, gotowych do wspólnej gry i handlu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="rules">
+        <div class="container">
+            <h2 class="section-title">Regulamin</h2>
+            <div class="rules-list">
+                <div class="rule-item reveal">
+                    <span class="rule-number">01</span>
+                    <p>Zakaz używania wspomagaczy (cheaty, makra).</p>
+                </div>
+                <div class="rule-item reveal">
+                    <span class="rule-number">02</span>
+                    <p>Szanuj innych graczy i administrację.</p>
+                </div>
+                <div class="rule-item reveal">
+                    <span class="rule-number">03</span>
+                    <p>Zakaz reklamowania innych serwerów.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section id="staff" class="staff">
+        <div class="container">
+            <h2 class="section-title">Nasza Ekipa</h2>
+            <div class="staff-grid">
+                <div class="staff-card reveal">
+                    <img src="https://minotar.net/avatar/Notch/100.png" alt="Admin">
+                    <h3>Falen360</h3>
+                    <span class="role admin">Właściciel</span>
+                </div>
+                <div class="staff-card reveal">
+                    <img src="https://minotar.net/avatar/Steve/100.png" alt="Mod">
+                    <h3>ZarazNature</h3>
+                    <span class="role mod">Moderator</span>
+                </div>
+                <div class="staff-card reveal">
+                    <img src="https://minotar.net/avatar/Alex/100.png" alt="Helper">
+                    <h3>NASZE</h3>
+                    <span class="role helper">Pomocnik</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 MinecraftServer. Wszelkie prawa zastrzeżone.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
