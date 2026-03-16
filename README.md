@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+
+To jest moja strona.
+
 <!--
 **przystanek-lukasz/przystanek-lukasz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
